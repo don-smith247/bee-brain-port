@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://kit.fontawesome.com/c6c3ca2138.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Timmana&display=swap" rel="stylesheet">
+<script src="./index.js"></script>
+</head>
+<body>
+    <main>
+        <nav>
+            <div>
+                <h2 style="color: #3FFFFF;">ABEE</h2>
+            </div>                                                                                                
+            <div>
+                <ul class="first-ul">
+                    <li>About me</li>
+                    <li>Resume</li>
+                    <li>Works</li>
+                </ul>
+            </div>
+            <div>
+                <button class="first-btnn">Contact Me</button>
+            </div>
+            <div class="container">
+                <a href="#" class="toggleBox">
+                    <span class="iicon"></span>
+                </a>
+                <ul class="navItems">
+                    <li>
+                        <a href="#home">
+                           <i class="fa fa-home" style="--i:1"></i>
+                           <span style="--g:1">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            <i class="fa-solid fa-address-card"></i>
+                           <span style="--g:2">About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#experience">
+                           <i class="fa fa-folder" style="--i:3"></i>
+                           <span style="--g:3">Experience</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            <i class="fa-solid fa-address-book"></i>
+                           <span style="--g:4">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <script>
+                var toggleClick = document.querySelector(".toggleBox");
+                var container = document.querySelector(".container");
+                toggleClick.addEventListener('click', ()=>{
+                    toggleClick.classList.toggle('active');
+                    container.classList.toggle('active');
+                })
+            </script>
+        </nav>
+        <section class="hero-sec" id="home">
+            <div  class="under-hero">
+                <div class="lace">
+                  <hr>
+                  <div class="social-icon">
+                    <i class="fab fa-github icon"></i>
+                    <i class="fab fa-whatsapp icon"></i>
+                    <i class="fab fa-facebook icon"></i>
+                    <i class="fab fa-twitter icon"></i>
+                  </div>
+                  <hr>
+                </div>
+                <div class="scre">
+                    <p>Hello There, I am...</p>
+                    <h3>Abdullah Abdulfatah</h3>
+                    <p> junior Developer</p>
+                    <div class="socical_icons">
+                        <div class="icon"><i class="fa-brands fa-html5"></i></i></div>
+                        <div class="icon"><i class="fa-brands fa-react"></i></div>
+                        <div class="icon"><i class="fa-brands fa-js"></i></div>
+                        <div class="icon"><i class="fa-brands fa-php"></i></div>
+                      </div>
+                      <button class="first-btn">Get a quote</button>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img src="./Ellipse 1 (1).png" alt="">
+            </div>
+        </section>
+        <secton class="experience">
+            <h3>3YRS Experience</h3>
+            <h3>30+ Projects</h3>
+            <h3>5 Languages</h3>
+        </secton>
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="./OIP (13) 1.png" alt="">
+            </div>
+            <div class="second-about">
+                <div style="text-transform: capitalize;">about me</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <button style="width: 100px; height: 40px; background-color: #3FFFFF; color: black; border: none; border-radius: 10px;">Get a quote</button>
+            </div>
+        </section>
+        <section class="experience-1" id="experience">
+            <div class="exx">
+                <div class="ex-top">
+                    <div class="abu-top">
+                        <div class="abu">
+                            <p>2012-2013</p>
+                            <hr class="hrr">                       
+                        </div>
+                        <div class="soc">
+                            <h4>Ab School for Computer</h4>
+                            <p>
+                                Studnet / Internship <br>
+                                Computer Engineering
+                            </p>
+                        </div>
+                    </div>
+                    <div class="abu-top">
+                        <div class="abu">
+                            <p>2013-2015</p>
+                            <hr class="hrr">                       
+                        </div>
+                        <div class="soc">
+                            <h4>Tosh Acedemy</h4>
+                            <p>
+                                Junior Developer/ IT manager <br>
+                                IT managing Web developer
+                            </p>
+                        </div>
+                    </div>
+                    <div class="abu-top">
+                        <div class="abu">
+                            <p>2015-2024</p>
+                            <hr class="hrr">                       
+                        </div>
+                        <div class="soc">
+                            <h4>Freelancerr</h4>
+                            <p>
+                                Self Employed Web developer, <br>
+                                ui designer, tailwind, react developer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ex-top">
+                    <div class="abu-top">
+                        <div class="abu">
+                            <p>2012-2013</p>
+                            <hr class="hrr">                       
+                        </div>
+                        <div class="soc">
+                            <h4>Ab School for Computer</h4>
+                            <p>
+                                Studnet / Internship <br>
+                                Computer Engineering
+                            </p>
+                        </div>
+                    </div>
+                    <div class="abu-top">
+                        <div class="abu">
+                            <p>2013-2015</p>
+                            <hr class="hrr">                       
+                        </div>
+                        <div class="soc">
+                            <h4>Tosh Acedemy</h4>
+                            <p>
+                                Junior Developer/ IT manager <br>
+                                IT managing Web developer
+                            </p>
+                        </div>
+                    </div>
+                    <div class="abu-top">
+                        <div class="abu">
+                            <p>2015-2024</p>
+                            <hr class="hrr">                       
+                        </div>
+                        <div class="soc">
+                            <h4>Freelancerr</h4>
+                            <p>
+                                Self Employed Web developer, <br>
+                                ui designer, tailwind, react developer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="contact-section" id="contact">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/{your_form_id}" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+        
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="social-media">
+                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:abdulfatahabdullahi.com">abdulfatahabdullahi.com</a></p>
+                    <p>Phone: <a href="tel:+2349021942241">+2349021942241</a></p>
+                </div>
+                <div class="copyright">
+                    <p>&copy; 2024 Bee brain. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    
+    </main>
+</body>
+</html>
