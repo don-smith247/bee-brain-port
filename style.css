@@ -114,6 +114,9 @@ hr{
     background-size: cover;
 }
 @media screen and (max-width: 788px) {
+    body{
+        overflow-x: hidden;
+    }
     .hero-sec{
         flex-direction: column;
         margin-top: 50px;
